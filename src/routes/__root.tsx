@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Sole-trader plumber based in Whitstable. Domestic & commercial plumbing across London and Kent. Specialist in restaurants and bars." },
       { name: "author", content: "Mr Matt Plumbing" },
       { property: "og:title", content: "Mr Matt Plumbing — The plumber restaurants trust" },
-      { property: "og:description", content: "Domestic & commercial plumbing across London and Kent. Specialist in restaurants and bars." },
+      { property: "og:description", content: "Sole-trader plumber based in Whitstable. Domestic & commercial plumbing across London and Kent. Specialist in restaurants and bars." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Mr Matt Plumbing — The plumber restaurants trust" },
+      { name: "twitter:description", content: "Sole-trader plumber based in Whitstable. Domestic & commercial plumbing across London and Kent. Specialist in restaurants and bars." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b09521da-f510-44cd-824c-258a6ffb535c/id-preview-aba15fc2--267cbd53-2c5d-4134-af4e-b729e9538fb9.lovable.app-1781085301702.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b09521da-f510-44cd-824c-258a6ffb535c/id-preview-aba15fc2--267cbd53-2c5d-4134-af4e-b729e9538fb9.lovable.app-1781085301702.png" },
     ],
     links: [
       {
