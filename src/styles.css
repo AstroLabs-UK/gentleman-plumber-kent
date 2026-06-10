@@ -4,6 +4,26 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-navy: #1A2535;
+  --color-cream: #F5F0E8;
+  --color-brass: #C9A96E;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  opacity: 0;
+}
+.fade-in.is-visible {
+  animation: fade-in-up 0.9s ease-out forwards;
+}
+
 /*
  * Design system definition.
  *
