@@ -24,6 +24,9 @@
   animation: fade-in-up 0.9s ease-out forwards;
 }
 
+/* Hide Lovable badge */
+a[href*="lovable.dev"] { display: none !important; }
+
 /*
  * Design system definition.
  *
