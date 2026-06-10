@@ -292,7 +292,7 @@ function Index() {
 
       {/* AstroLabs credit badge */}
       <a
-        href="https://astrolabs.com"
+        href="https://astrolabs.uk"
         target="_blank"
         rel="noopener noreferrer"
         className="astrolabs-badge"
